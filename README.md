@@ -1,3 +1,4 @@
+[![ci](https://github.com/Omneedia/pgadmin/actions/workflows/github-actions-builder.yml/badge.svg)](https://github.com/Omneedia/pgadmin/actions/workflows/github-actions-builder.yml)
 # pgAdmin 4 
 
 pgAdmin 4 is a rewrite of the popular pgAdmin3 management tool for the
