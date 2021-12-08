@@ -20,11 +20,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Read package.json
-        uses: tyankatsu0105/read-package-version-actions@v1
-        id: package-version
-        with:
-          path: './'
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
